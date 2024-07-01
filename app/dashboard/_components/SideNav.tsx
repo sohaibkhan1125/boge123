@@ -2,6 +2,7 @@
 
 import { FileClock, Home, Settings, SquareUser, UserRound, WalletCards } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import React, { useEffect } from 'react';
 
@@ -39,7 +40,9 @@ function SideNav() {
     return (
         <div className='h-screen relative p-5 shadow-sm border bg-white'>
             <div className='flex justify-center'>
+            <Link href={'/'}>
                 <Image src={'/logo.svg'} alt='logo' width={100} height={100} />
+                </Link>
             </div>
             <hr className='my-6 border' />
             <div className='mt-3'>
