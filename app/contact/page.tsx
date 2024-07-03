@@ -13,7 +13,7 @@ const Page = () => {
           id="fs-frm"
           name="simple-contact-form"
           acceptCharset="utf-8"
-          action="https://formspree.io/f/mnnaqvoz"
+          action="https://formspree.io/f/mblrjkrg"
           method="post"
           className="w-full max-w-lg bg-white p-8 rounded-lg shadow-md"
         >
