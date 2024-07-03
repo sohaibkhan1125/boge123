@@ -17,7 +17,7 @@ const Page = () => {
 
         <p style={{ marginLeft: '25%' }}>
           <i className="fas fa-envelope-open-text" style={{ color: '#2c3e50', fontSize: '20px' }}></i> 
-          <b><i> <span id="W_Email"><a href="mailto:admin@asadseotools.com">admin@asadseotools.com</a></span></i></b><br />
+          <b><i> <span id="W_Email"><a href="mailto:admin@gallantinsure.com">admin@gallantinsure.com</a></span></i></b><br />
 
           <i className="fab fa-whatsapp-square" style={{ color: '#3edc81', fontSize: '20px' }}></i> 
           <b><span id="W_whatsapp"><a href="tel:"></a></span></b><br />

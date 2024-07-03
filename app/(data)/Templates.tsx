@@ -209,5 +209,41 @@ export default [
             }
         ]
     },
+    {
+        name:'Language Detector',
+        desc:'This ai tool will easily detect any type of language. Enter language and get result.',
+        category:'Article',
+        icon:'https://cdn-icons-png.flaticon.com/128/3898/3898082.png',
+        aiPrompt:'Detect user enter language and show the language name in result.',
+        slug:'ai-language-detector',
+        form:[
+            
+            {
+                label:'Enter your language',
+                field:'textarea',
+                name:'outline',
+
+            }
+        ]
+    },
+    {
+        name:'Language Converter',
+        desc:'This ai tool will easily conver any type of language into your required language.',
+        category:'Article',
+        icon:'https://cdn-icons-png.flaticon.com/128/2014/2014826.png',
+        aiPrompt:'Convert user given text language into other language according to user given prompt.',
+        slug:'ai-language-converter',
+        form:[
+            
+            {
+                label:'Enter your prompt',
+                field:'input',
+                name:'niche',
+                required:true
+            },
+           
+        ]
+    },
+    
     
 ]
