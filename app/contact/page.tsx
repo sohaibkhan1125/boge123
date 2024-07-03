@@ -8,7 +8,6 @@ const Page = () => {
       <TopMenu />
       <h1 className='text-center text-3xl font-bold mt-5'>Contact Us</h1>
       <main className="flex-grow flex items-center justify-center py-10">
-       
         <form
           id="fs-frm"
           name="simple-contact-form"
@@ -41,6 +40,17 @@ const Page = () => {
               />
             </div>
             <div>
+              <label htmlFor="email-subject" className="block text-sm font-medium text-gray-700">Subject</label>
+              <input
+                type="text"
+                name="_subject"
+                id="email-subject"
+                placeholder="Subject"
+                required
+                className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              />
+            </div>
+            <div>
               <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
               <textarea
                 name="message"
@@ -50,12 +60,6 @@ const Page = () => {
                 className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
               ></textarea>
             </div>
-            <input
-              type="hidden"
-              name="_subject"
-              id="email-subject"
-              value="Contact Form Submission"
-            />
             <input
               type="hidden"
               name="_to"
