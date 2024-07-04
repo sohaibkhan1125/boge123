@@ -19,10 +19,19 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-      <meta name="google-adsense-account" content="ca-pub-7692733251094072"/>
-
-
+        <meta name="google-adsense-account" content="ca-pub-7692733251094072"/>
         <Head>
+          {/* Google Tag Manager */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-S3V0YRTQDT"></script>
+          <script>
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-S3V0YRTQDT');
+            `}
+          </script>
+          
           {/* Google AdSense */}
           <script 
             async 
