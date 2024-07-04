@@ -26,11 +26,7 @@ function SideNav() {
             icon: SquareUser,
             path: '/contact'
         },
-        {
-            name: "Setting",
-            icon: Settings,
-            path: '/dashboard/settings'
-        }
+        
     ];
 
     useEffect(() => {

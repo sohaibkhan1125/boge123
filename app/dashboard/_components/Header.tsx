@@ -1,4 +1,3 @@
-import { UserButton } from '@clerk/nextjs'
 import Image from 'next/image'
 import React from 'react'
 
@@ -11,7 +10,6 @@ function Header() {
        <h2 className='font-semibold text-xl md:text-2xl'>AI Generator</h2>
       </div>
       <div className='flex gap-5 items-center'>
-        <UserButton/>
       </div>
     </div>
   )

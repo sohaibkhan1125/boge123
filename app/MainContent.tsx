@@ -16,7 +16,7 @@ const MainContent = () => {
     </div>
 
     <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-      <Link href={'/dashboard'} className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+      <Link href={'/dashboard/content/blog-title-generator'} className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
       >
       
         <Image src={'https://cdn-icons-png.flaticon.com/128/2593/2593549.png'} alt='logo' width={50} height={50} />
@@ -29,7 +29,7 @@ const MainContent = () => {
      
       </Link>
       
-      <Link href={'/dashboard'} className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+      <Link href={'/dashboard/content/youtube-description-generator'} className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
       >
       
        <Image src={'https://cdn-icons-png.flaticon.com/128/1384/1384060.png'} alt='logo' width={50} height={50} />
@@ -42,7 +42,7 @@ const MainContent = () => {
       
       </Link>
 
-      <Link href={'/dashboard'} className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+      <Link href={'/dashboard/content/ai-code-generator'} className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
       >
       
        <Image src={'https://cdn-icons-png.flaticon.com/128/6062/6062646.png'} alt='logo' width={50} height={50} />
@@ -55,7 +55,7 @@ const MainContent = () => {
      
       </Link>
 
-      <Link href={'/dashboard'} className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+      <Link href={'/dashboard/content/ai-article-rewriter'} className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
       >
       
         <Image src={'https://cdn-icons-png.flaticon.com/128/14029/14029439.png'} alt='logo' width={50} height={50} />
@@ -68,7 +68,7 @@ const MainContent = () => {
      
       </Link>
 
-      <Link href={'/dashboard'} className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+      <Link href={'/dashboard/content/hashtags-generator'} className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
       >
      
     
@@ -82,7 +82,7 @@ const MainContent = () => {
       
       </Link>
 
-      <Link href={'/dashboard'} className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+      <Link href={'/dashboard/content/ai-article-summarizer'} className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
       >
       
         <Image src={'https://cdn-icons-png.flaticon.com/128/7635/7635873.png'} alt='logo' width={50} height={50} />
