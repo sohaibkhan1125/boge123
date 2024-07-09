@@ -27,11 +27,26 @@ function CreateNewContent(props: PROPS) {
         setLoading(true);
         const SelectedPrompt = selectedTemplate?.aiPrompt;
 
+        if (!SelectedPrompt) {
+            console.error('AI prompt is missing for the selected template.');
+            setLoading(false);
+            return;
+        }
+
         const FinalAIPrompt = JSON.stringify(formData) + ", " + SelectedPrompt;
-        const result = await chatSession.sendMessage(FinalAIPrompt);
-        console.log(result.response.text());
-        setAiOutput(result?.response.text());
-        await SaveInDb(formData, selectedTemplate?.slug, result?.response.text());
+        try {
+            const result = await chatSession(FinalAIPrompt);
+            if (result && result.result) {
+                const aiResponse = result.result;
+                console.log(aiResponse);
+                setAiOutput(aiResponse);
+                await SaveInDb(formData, selectedTemplate?.slug, aiResponse);
+            } else {
+                console.error('Invalid response from chatSession:', result);
+            }
+        } catch (error) {
+            console.error('Error:', error);
+        }
         setLoading(false);
     }
 
