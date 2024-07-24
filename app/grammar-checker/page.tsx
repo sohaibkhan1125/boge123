@@ -6,7 +6,7 @@ const Page = () => {
   return (
     <section>
         <TopMenu/>
-    <div className="max-w-4xl mx-auto p-4">
+    <div className="p-4">
       <h1 className="text-3xl font-bold mb-4">Grammar Checker</h1>
 
       <div className="mb-8">
@@ -37,7 +37,9 @@ const Page = () => {
           grammar checkers contribute to better communication and a more professional image.
         </p>
       </div>
-
+<div className='flex justify-center'>
+  <img className='rounded my-5' src="https://img.freepik.com/free-photo/notebook-with-grammar-word-school-suplies_23-2149436698.jpg?ga=GA1.1.523182871.1714403396&semt=sph" alt="" />
+</div>
       <div className="mb-8">
         <h2 className="text-xl font-bold mb-2">3. Types of Grammar Checkers</h2>
         <p className="mb-4">
@@ -109,7 +111,9 @@ const Page = () => {
           your specific writing needs.
         </p>
       </div>
-
+  <div className='flex justify-center'>
+    <img className='rounded my-5' src="https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?ga=GA1.1.523182871.1714403396&semt=sph" alt="" />
+  </div>
       <div className="mb-8">
         <h2 className="text-xl font-bold mb-2">8. Integrating Grammar Checkers with Other Tools</h2>
         <p className="mb-4">

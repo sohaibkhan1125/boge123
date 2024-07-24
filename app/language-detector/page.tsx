@@ -39,7 +39,10 @@ const Page = () => {
           communication.
         </p>
       </div>
+   <div className='flex justify-center'>
+    <img className='' src="https://img.freepik.com/free-vector/voice-assistant-translating-into-foreign-languages-illustration_335657-360.jpg?ga=GA1.1.523182871.1714403396&semt=ais_user" alt="" />
 
+   </div>
       <div className="mb-8">
         <h2 className="text-xl font-bold mb-2">3. Types of Language Detectors</h2>
         <p className="mb-4">
@@ -116,7 +119,9 @@ const Page = () => {
           detection.
         </p>
       </div>
-
+  <div className='flex justify-center'>
+    <img className='rounded my-5' src="https://img.freepik.com/free-vector/rhetoric-speech-improvement-isometric-background-with-woman-doing-rhetorical-exercises-training-with-pencil-3d-vector-illustration_98292-9922.jpg?ga=GA1.1.523182871.1714403396&semt=ais_user" alt="" />
+  </div>
       <div className="mb-8">
         <h2 className="text-xl font-bold mb-2">8. Integrating Language Detectors with Other Tools</h2>
         <p className="mb-4">

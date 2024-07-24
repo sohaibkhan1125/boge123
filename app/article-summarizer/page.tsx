@@ -22,7 +22,11 @@ const ArticleSummarizer = () => {
           Article summarizers offer several benefits, including time-saving and improved information retention. By condensing lengthy articles into shorter summaries, they allow users to quickly grasp the main points without reading the entire text. This is particularly useful for busy professionals and students who need to review multiple sources of information efficiently. Summarizers also enhance comprehension by stripping away non-essential details and focusing on the core message. Additionally, they can help in identifying relevant articles from a large pool of documents, aiding in research and decision-making. The ability to quickly generate summaries also facilitates better knowledge management and easier sharing of information.
         </p>
       </section>
-      
+        
+        <div className='flex justify-center'>
+          <img className='rounded' src="https://img.freepik.com/free-vector/copywriter-huge-laptop-writting-creative-advertising-text-copywriting-job-home-based-copywriter-freelance-copywriting-concept_335657-837.jpg?ga=GA1.2.523182871.1714403396&semt=ais_user" alt="" />
+
+        </div>
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-4">3. Types of Article Summarizers</h2>
         <p className="mb-2">
@@ -57,7 +61,10 @@ const ArticleSummarizer = () => {
           Article summarization presents challenges such as maintaining context, avoiding bias, and ensuring readability. AI tools may struggle with understanding the nuances and subtleties of the text, leading to summaries that miss critical points or misrepresent the original content. Bias can be introduced if the summarizer overemphasizes certain aspects of the article based on its training data. Ensuring the readability and coherence of the summary is also a challenge, especially for abstractive summarizers. Overcoming these challenges involves using advanced NLP techniques, regularly updating the summarization model, and combining AI outputs with human oversight to ensure the summaries are accurate and reliable.
         </p>
       </section>
-      
+       
+       <div className='flex justify-center'>
+        <img className='rounded' src="https://img.freepik.com/free-vector/online-article-concept-illustration_114360-5253.jpg?ga=GA1.2.523182871.1714403396&semt=ais_user" alt="" />
+       </div>
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-4">8. Integrating Article Summarizers with Other Tools</h2>
         <p className="mb-2">

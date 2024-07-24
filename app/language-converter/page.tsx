@@ -6,7 +6,7 @@ const Page = () => {
     return (
         <section>
             <TopMenu/>
-      <div className="max-w-4xl mx-auto p-6">
+      <div className=" p-6">
         <h1 className="text-3xl font-bold mb-6">Language Converter</h1>
   
         <section className="mb-6">
@@ -22,7 +22,9 @@ const Page = () => {
             Using language converters offers numerous benefits, including enhanced communication and accessibility. These tools enable individuals and businesses to interact with people who speak different languages, facilitating global collaboration and understanding. Language converters can save time and resources by automating the translation process, eliminating the need for manual translation services. They also support the localization of content, making it more relevant and engaging for different linguistic audiences. Additionally, language converters can help preserve linguistic diversity by providing translations for lesser-known languages. Overall, these tools are invaluable for breaking down language barriers and fostering more inclusive communication.
           </p>
         </section>
-  
+        <div className='flex justify-center'>
+          <img src="https://img.freepik.com/free-vector/digital-translator-abstract-concept-illustration_335657-3769.jpg?ga=GA1.1.523182871.1714403396&semt=ais_user" alt="" />
+        </div>
         <section className="mb-6">
           <h2 className="text-2xl font-semibold mb-4">Types of Language Converters</h2>
           <p className="mb-4">
@@ -57,7 +59,9 @@ const Page = () => {
             Using language converters can present challenges such as handling idiomatic expressions, maintaining context, and managing cultural differences. Idioms and colloquialisms often don’t translate directly and can lead to confusion or misinterpretation. Maintaining the context of a message is crucial for ensuring the translation accurately reflects the original intent and meaning. Cultural differences can also affect the appropriateness of certain phrases and expressions in the translated text. Overcoming these challenges involves using advanced, context-aware translation tools and supplementing automated translations with human review. Understanding these limitations and addressing them can improve the quality and reliability of language conversions.
           </p>
         </section>
-  
+        <div className='flex justify-center'>
+          <img className='my-5' src="https://img.freepik.com/free-vector/flat-international-mother-language-day-illustration_23-2149219243.jpg?ga=GA1.1.523182871.1714403396&semt=ais_user" alt="" />
+        </div>
         <section className="mb-6">
           <h2 className="text-2xl font-semibold mb-4">Integrating Language Converters with Other Tools</h2>
           <p className="mb-4">

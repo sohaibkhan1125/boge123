@@ -6,7 +6,7 @@ const Page = () => {
   return (
     <section>
         <TopMenu/>
-    <div className="max-w-4xl mx-auto p-6">
+    <div className="p-6">
       <h1 className="text-3xl font-bold mb-6">YouTube Tags Generator</h1>
 
       <section className="mb-8">
@@ -23,6 +23,9 @@ const Page = () => {
         </p>
       </section>
 
+<div className='flex justify-center'>
+  <img className='rounded my-5' src="https://img.freepik.com/free-photo/people-holding-youtube-icon_53876-71129.jpg?ga=GA1.1.523182871.1714403396&semt=ais_user" alt="" />
+</div>
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Types of YouTube Tags Generators</h2>
         <p className="text-lg mb-2">
@@ -57,7 +60,9 @@ const Page = () => {
           Using YouTube tags generators can present challenges such as over-reliance on automated suggestions and maintaining relevance. Automated tools may not always understand the nuances of your content, leading to less accurate or generic tags. It’s important to supplement generated tags with manual research and adjustments. Another challenge is staying up-to-date with changing trends and algorithm updates, which can affect the effectiveness of your tags. Ensuring that tags remain relevant and specific to your content requires ongoing analysis and refinement. Additionally, balancing the number of tags and avoiding keyword stuffing is crucial to maintain a positive viewer experience and adhere to YouTube’s guidelines.
         </p>
       </section>
-
+   <div className='flex justify-center'>
+    <img className='rounded my-5' src="https://img.freepik.com/free-photo/youtube-icon-line-connection-circuit-board_1379-892.jpg?ga=GA1.1.523182871.1714403396&semt=ais_user" alt="" />
+   </div>
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Integrating YouTube Tags Generators with Other Tools</h2>
         <p className="text-lg mb-2">

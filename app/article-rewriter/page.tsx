@@ -15,7 +15,10 @@ const page = () => {
     <p className="text-base leading-7">
     AI in article rewriting leverages advanced natural language processing (NLP) and machine learning techniques to transform existing text into new, unique content. These AI systems are trained on vast datasets to understand context, grammar, and semantics, allowing them to rephrase sentences while preserving the original meaning. This technology uses algorithms that identify patterns and generate alternative ways to express the same ideas. Understanding AI's role in article rewriting involves recognizing its capabilities and limitations, such as its ability to maintain coherence and avoid plagiarism. Additionally, it's crucial to grasp how AI adapts to different writing styles and tones, making it a versatile tool for various content needs.    </p>
   </section>
-  
+   
+   <div className='flex justify-center my-5'>
+    <img className='rounded' src="https://img.freepik.com/free-vector/hand-drawn-essay-illustration_23-2150310009.jpg?ga=GA1.2.523182871.1714403396&semt=ais_user" alt="" />
+   </div>
   <section className="mb-8">
     <h2 className="text-2xl font-semibold mb-4">2. Benefits of Using AI for Article Rewriting</h2>
     <p className="text-base leading-7">
@@ -45,7 +48,9 @@ const page = () => {
     <p className="text-base leading-7">
     AI article rewriting comes with challenges, such as maintaining coherence and avoiding plagiarism. To overcome these, it's crucial to select advanced AI tools that offer contextual understanding and sophisticated language models. Regularly updating the AI tool can help address issues related to outdated data and algorithms. Training the AI on specific content relevant to your niche can improve its rewriting capabilities. Additionally, combining AI with human oversight ensures that any inconsistencies or errors are promptly corrected. Educating writers on how to effectively use AI tools and interpret their outputs can also mitigate common challenges, leading to more reliable and high-quality rewritten content.    </p>
   </section>
-  
+  <div className='flex justify-center my-5'>
+    <img className='rounded' src="https://img.freepik.com/free-photo/unrecognizable-woman-sitting-cafe-drawing-napking_1098-17173.jpg?ga=GA1.2.523182871.1714403396&semt=ais_user" alt="" />
+  </div>
   <section className="mb-8">
     <h2 className="text-2xl font-semibold mb-4">7. Ethical Considerations in Using AI for Article Rewriting</h2>
     <p className="text-base leading-7">

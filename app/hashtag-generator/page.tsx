@@ -22,7 +22,9 @@ const Page = () => {
           Using hashtag generators offers several benefits, including increased reach and engagement on social media platforms. These tools help identify the most relevant and trending hashtags, enhancing the discoverability of posts. They save time and effort by automating the research process, allowing users to focus on content creation. Hashtag generators can also provide insights into hashtag performance, helping users understand which tags are driving the most engagement. Additionally, they can suggest niche-specific hashtags that align with the user’s brand or industry, fostering a more targeted and effective social media strategy. Overall, these tools contribute to a more streamlined and data-driven approach to hashtag use.
         </p>
       </section>
-
+  <div className='flex justify-center'>
+    <img className='rounded' src="https://img.freepik.com/free-vector/social-media-concept-illustration_114360-97.jpg?ga=GA1.1.523182871.1714403396&semt=sph" alt="" />
+  </div>
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Types of Hashtag Generators</h2>
         <p className="mb-2">
@@ -57,7 +59,9 @@ const Page = () => {
           Using hashtag generators can present challenges such as over-reliance on automated suggestions and maintaining relevance. Automated tools may not always understand the nuances of your content, leading to less accurate or generic tags. It’s important to supplement generated hashtags with manual research and adjustments. Another challenge is staying up-to-date with changing trends and algorithm updates, which can affect the effectiveness of your hashtags. Ensuring that hashtags remain relevant and specific to your content requires ongoing analysis and refinement. Additionally, balancing the number of hashtags and avoiding hashtag spamming is crucial to maintain a positive user experience and adhere to platform guidelines.
         </p>
       </section>
-
+   <div className='flex justify-center'>
+    <img className='rounded my-5' src="https://img.freepik.com/free-vector/users-with-hashtag-vector_53876-77988.jpg?ga=GA1.1.523182871.1714403396&semt=sph" alt="" />
+   </div>
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Integrating Hashtag Generators with Social Media Tools</h2>
         <p className="mb-2">

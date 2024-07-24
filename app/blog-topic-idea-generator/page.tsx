@@ -22,7 +22,9 @@ const Page = () => {
           Using blog topic idea generators offers numerous benefits, including saving time and sparking creativity. These tools help content creators quickly come up with a variety of potential topics, reducing the time spent brainstorming. They can uncover new angles and niches within a given subject, offering fresh perspectives that might not have been considered otherwise. Blog topic idea generators also assist in staying current by suggesting topics based on the latest trends and audience interests. This relevance can increase engagement and attract more readers. Additionally, these tools can help in planning content calendars, ensuring a steady flow of ideas and maintaining consistency in publishing.
         </p>
       </section>
-      
+        <div className="flex justify-center">
+          <img className="rounded my-5" src="https://img.freepik.com/free-photo/social-media-networking-online-communication-connect-concept_53876-124862.jpg?ga=GA1.1.523182871.1714403396&semt=ais_user" alt="" />
+        </div>
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">3. Types of Blog Topic Idea Generators</h2>
         <p>
@@ -57,7 +59,9 @@ const Page = () => {
           Blog topic idea generators are invaluable for overcoming writer's block by providing a steady stream of new ideas. When faced with a creative block, using these tools can kickstart the brainstorming process, offering prompts and angles you might not have considered. Start by entering general keywords related to your blog's niche and explore the generated ideas. Sometimes, seeing a list of potential topics can spark your imagination, leading to new and unexpected content directions. Additionally, focusing on trending topics or frequently asked questions can provide a clear starting point for research and writing. These tools help break the mental stalemate and reignite your creative process.
         </p>
       </section>
-      
+       <div className="flex justify-center">
+        <img src="https://img.freepik.com/free-vector/branding-concept-landing-page_23-2148248237.jpg?ga=GA1.1.523182871.1714403396&semt=ais_user" alt="" />
+       </div>
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">8. Integrating Blog Topic Idea Generators with Content Planning Tools</h2>
         <p>

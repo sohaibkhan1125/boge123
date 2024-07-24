@@ -31,7 +31,9 @@ const TitleGenerator = () => {
           Incorporating keywords into your blog titles is essential for search engine optimization (SEO). Keywords help search engines understand the topic of your content and improve your chances of ranking higher in search results. Use tools like Google Keyword Planner, Ahrefs, or SEMrush to find relevant keywords with good search volume. Place these keywords naturally within your titles without compromising readability. For example, instead of "Top Tips for Baking," use "Top Baking Tips for Beginners." This approach ensures that your titles are both search-friendly and appealing to your audience. Furthermore, regularly updating your keyword strategy based on current trends can keep your content relevant and highly searchable, driving more organic traffic to your blog.
           </p>
         </div>
-
+      <div className='flex justify-center'>
+        <img src="https://img.freepik.com/free-vector/blog-post-concept-illustration_114360-26355.jpg?ga=GA1.2.523182871.1714403396&semt=ais_user" alt="" />
+      </div>
         {/* Tip 3 */}
         <div>
           <h3 className="text-xl font-semibold mb-2">3. Use Power Words</h3>
@@ -72,6 +74,9 @@ const TitleGenerator = () => {
           </p>
         </div>
 
+<div className='flex justify-center my-5'>
+  <img className='rounded' src="https://img.freepik.com/free-photo/teamwork-making-online-blog_53876-94868.jpg?ga=GA1.2.523182871.1714403396&semt=ais_user" alt="" />
+</div>
         {/* Tip 8 */}
         <div>
           <h3 className="text-xl font-semibold mb-2">8. Test Different Variations</h3>

@@ -22,7 +22,11 @@ const Page = () => {
           Using code generators offers numerous benefits, including increased productivity, reduced development time, and enhanced code quality. These tools automate repetitive and error-prone tasks, allowing developers to focus on designing and implementing complex features. Code generators ensure consistency in coding standards and best practices, which improves maintainability and readability of the codebase. They also help in rapidly prototyping and iterating on ideas, facilitating faster feedback loops and innovation. By automating code creation, these tools can significantly reduce the risk of human error and bugs, leading to more reliable and robust software. Additionally, code generators can assist in documentation by producing comprehensive and accurate comments and descriptions automatically.
         </p>
       </section>
+   
+   <div className='flex justify-center'>
+    <img className='rounded' src="https://img.freepik.com/free-vector/cross-platform-frameworks-abstract-concept-illustration-programming-build-tool-software-development-framework-cross-platform-structure-application-ui-coding-process_335657-344.jpg?ga=GA1.2.523182871.1714403396&semt=ais_user" alt="" />
 
+   </div>
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-2">3. Types of Code Generators</h2>
         <p>
@@ -57,7 +61,9 @@ const Page = () => {
           Integrating code generators with development workflows involves incorporating these tools into the continuous integration and deployment (CI/CD) pipelines. Start by configuring the code generator to align with your project's coding standards and practices. Automate the code generation process within your build system to ensure that generated code is always up-to-date. Use version control to manage and track changes to generated code alongside manually written code. Regularly review and test the generated code to maintain quality and consistency. Collaboration among team members is essential, ensuring that everyone understands how to use the code generator effectively. This integration can enhance productivity, streamline development processes, and ensure high-quality code production.
         </p>
       </section>
-
+  <div className='flex justify-center'>
+    <img className='rounded my-5' src="https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040412.jpg?ga=GA1.2.523182871.1714403396&semt=ais_user" alt="" />
+  </div>
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-2">8. Case Studies: Successful Implementations of Code Generators</h2>
         <p>
